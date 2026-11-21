@@ -10,6 +10,7 @@
   <meta property="og:description" content="A peer-to-peer memory layer for language models.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 27.3 9.5v13L16 29 4.7 22.5v-13Z' fill='%230d0e10' stroke='%23e2a63b' stroke-width='2.4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <header class="hero wrap">
@@ -31,8 +32,25 @@
       </div>
     </section>
 
+    <section class="block" aria-labelledby="field-title">
+      <div class="block-head"><span class="idx">02</span><h2 id="field-title">The field</h2></div>
+      <div class="field">
+        <p class="field-note">Each cell is a memory node. This is a sample of <span id="field-count">217</span>, in six regions around the present: related ideas share a border.</p>
+        <div class="field-grid">
+          <div class="field-stage">
+            <canvas id="field" tabindex="0" role="application" aria-roledescription="memory field" aria-label="Memory field. Arrow keys move between cells, Enter lights up a cell's neighbours, Escape clears." aria-describedby="readout"></canvas>
+          </div>
+          <div class="readout" id="readout" aria-live="polite">
+            <p class="ro-hint">Loading the field.</p>
+            <noscript><p class="ro-hint">The field needs JavaScript.</p></noscript>
+          </div>
+        </div>
+        <ul class="legend" id="legend" aria-label="Regions"></ul>
+      </div>
+    </section>
+
     <section class="block" aria-labelledby="why">
-      <div class="block-head"><span class="idx">02</span><h2 id="why">Why</h2></div>
+      <div class="block-head"><span class="idx">03</span><h2 id="why">Why</h2></div>
       <div class="prose">
         <p>Context windows are a hard ceiling. They keep growing, but whatever does not fit is gone, and whatever fits is gone when the session ends.</p>
         <dl class="props">
@@ -48,7 +66,7 @@
     </section>
 
     <section class="block" aria-labelledby="status">
-      <div class="block-head"><span class="idx">03</span><h2 id="status">Status</h2></div>
+      <div class="block-head"><span class="idx">04</span><h2 id="status">Status</h2></div>
       <div class="prose">
         <p class="state"><span class="dot" aria-hidden="true"></span>Early. In development.</p>
         <p>The work happens in the open: <a href="https://github.com/elonmusksleftmut/P2P-HSDM">p2p-hsdm on GitHub</a>.</p>

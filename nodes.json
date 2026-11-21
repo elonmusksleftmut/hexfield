@@ -1,0 +1,3043 @@
+{
+ "note": "Sample data for the field on hexfield.org: not a live network. app.js reads it through loadNodes().",
+ "nodes": [
+  {
+   "id": "n000",
+   "q": 0,
+   "r": 0,
+   "domain": "core",
+   "concept": "now",
+   "chunk": "The present context. Every walk through the field starts here.",
+   "peers": [
+    "phone-2b7e",
+    "laptop-51af"
+   ],
+   "recalls": 71,
+   "stored": "2026-08-01"
+  },
+  {
+   "id": "n001",
+   "q": -1,
+   "r": 1,
+   "domain": "model",
+   "concept": "model",
+   "chunk": "The thing that reads, writes, and forgets between sessions.",
+   "peers": [
+    "laptop-51af",
+    "phone-9c41"
+   ],
+   "recalls": 40,
+   "stored": "2026-11-09"
+  },
+  {
+   "id": "n002",
+   "q": 0,
+   "r": 1,
+   "domain": "memory",
+   "concept": "memory",
+   "chunk": "What persists after the conversation is over.",
+   "peers": [
+    "pi-3e18",
+    "tablet-c4e9"
+   ],
+   "recalls": 40,
+   "stored": "2026-09-05"
+  },
+  {
+   "id": "n003",
+   "q": 1,
+   "r": 0,
+   "domain": "network",
+   "concept": "peer",
+   "chunk": "A node that stores chunks and answers for them.",
+   "peers": [
+    "phone-9c41",
+    "laptop-51af"
+   ],
+   "recalls": 37,
+   "stored": "2026-08-15"
+  },
+  {
+   "id": "n004",
+   "q": 1,
+   "r": -1,
+   "domain": "space",
+   "concept": "position",
+   "chunk": "Where a chunk sits says what it relates to.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 34,
+   "stored": "2026-08-03"
+  },
+  {
+   "id": "n005",
+   "q": 0,
+   "r": -1,
+   "domain": "time",
+   "concept": "session",
+   "chunk": "One conversation. The model forgets it when it closes.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 37,
+   "stored": "2026-09-30"
+  },
+  {
+   "id": "n006",
+   "q": -1,
+   "r": 0,
+   "domain": "language",
+   "concept": "meaning",
+   "chunk": "What a chunk is about, beneath its words.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 37,
+   "stored": "2026-10-23"
+  },
+  {
+   "id": "n007",
+   "q": -2,
+   "r": 2,
+   "domain": "model",
+   "concept": "weights",
+   "chunk": "What training left behind, fixed once the model ships.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 27,
+   "stored": "2026-09-04"
+  },
+  {
+   "id": "n008",
+   "q": -1,
+   "r": 2,
+   "domain": "model",
+   "concept": "context window",
+   "chunk": "Everything the model can see at once, and nothing more.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 22,
+   "stored": "2026-08-12"
+  },
+  {
+   "id": "n009",
+   "q": 0,
+   "r": 2,
+   "domain": "memory",
+   "concept": "recall",
+   "chunk": "Bringing a stored chunk back into the context.",
+   "peers": [
+    "pi-3e18",
+    "tablet-c4e9"
+   ],
+   "recalls": 29,
+   "stored": "2026-09-20"
+  },
+  {
+   "id": "n010",
+   "q": 1,
+   "r": 1,
+   "domain": "memory",
+   "concept": "forgetting",
+   "chunk": "Letting what is not used fade, on purpose.",
+   "peers": [
+    "pi-3e18",
+    "server-a6c0"
+   ],
+   "recalls": 25,
+   "stored": "2026-08-04"
+  },
+  {
+   "id": "n011",
+   "q": 2,
+   "r": 0,
+   "domain": "network",
+   "concept": "node",
+   "chunk": "One device running HSDM: a laptop, a server, a phone.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 25,
+   "stored": "2026-09-21"
+  },
+  {
+   "id": "n012",
+   "q": 2,
+   "r": -1,
+   "domain": "network",
+   "concept": "network",
+   "chunk": "All the peers that can reach each other.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 22,
+   "stored": "2026-10-03"
+  },
+  {
+   "id": "n013",
+   "q": 2,
+   "r": -2,
+   "domain": "space",
+   "concept": "neighbour",
+   "chunk": "One of the six cells touching another.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 28,
+   "stored": "2026-09-13"
+  },
+  {
+   "id": "n014",
+   "q": 1,
+   "r": -2,
+   "domain": "space",
+   "concept": "distance",
+   "chunk": "How many steps apart two cells are.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 22,
+   "stored": "2026-11-18"
+  },
+  {
+   "id": "n015",
+   "q": 0,
+   "r": -2,
+   "domain": "time",
+   "concept": "timestamp",
+   "chunk": "When a chunk was written.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 25,
+   "stored": "2026-10-30"
+  },
+  {
+   "id": "n016",
+   "q": -1,
+   "r": -1,
+   "domain": "time",
+   "concept": "age",
+   "chunk": "How long since a chunk was last recalled.",
+   "peers": [
+    "server-a6c0",
+    "pi-3e18"
+   ],
+   "recalls": 29,
+   "stored": "2026-09-23"
+  },
+  {
+   "id": "n017",
+   "q": -2,
+   "r": 0,
+   "domain": "language",
+   "concept": "concept",
+   "chunk": "An idea with a place in the field.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 28,
+   "stored": "2026-09-14"
+  },
+  {
+   "id": "n018",
+   "q": -2,
+   "r": 1,
+   "domain": "language",
+   "concept": "word",
+   "chunk": "Where meaning starts, and where it gets ambiguous.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 24,
+   "stored": "2026-09-24"
+  },
+  {
+   "id": "n019",
+   "q": -3,
+   "r": 3,
+   "domain": "model",
+   "concept": "prompt",
+   "chunk": "What you hand the model. Recalled memory is added here.",
+   "peers": [
+    "pi-3e18",
+    "phone-9c41"
+   ],
+   "recalls": 16,
+   "stored": "2026-11-11"
+  },
+  {
+   "id": "n020",
+   "q": -2,
+   "r": 3,
+   "domain": "model",
+   "concept": "tokens",
+   "chunk": "Pieces of words: the unit a model reads and writes.",
+   "peers": [
+    "pi-3e18",
+    "tablet-c4e9"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-17"
+  },
+  {
+   "id": "n021",
+   "q": -1,
+   "r": 3,
+   "domain": "model",
+   "concept": "attention",
+   "chunk": "How each token weighs every other token in view.",
+   "peers": [
+    "pi-3e18",
+    "laptop-51af"
+   ],
+   "recalls": 23,
+   "stored": "2026-10-26"
+  },
+  {
+   "id": "n022",
+   "q": 0,
+   "r": 3,
+   "domain": "memory",
+   "concept": "episodic",
+   "chunk": "Memory of what happened: this chat, that day.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 19,
+   "stored": "2026-08-29"
+  },
+  {
+   "id": "n023",
+   "q": 1,
+   "r": 2,
+   "domain": "memory",
+   "concept": "semantic",
+   "chunk": "Memory of what is true, whenever it was learned.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 20,
+   "stored": "2026-09-02"
+  },
+  {
+   "id": "n024",
+   "q": 2,
+   "r": 1,
+   "domain": "memory",
+   "concept": "procedural",
+   "chunk": "Memory of how: steps that worked before.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 16,
+   "stored": "2026-09-19"
+  },
+  {
+   "id": "n025",
+   "q": 3,
+   "r": 0,
+   "domain": "network",
+   "concept": "replication",
+   "chunk": "Each chunk held by more than one peer.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-31"
+  },
+  {
+   "id": "n026",
+   "q": 3,
+   "r": -1,
+   "domain": "network",
+   "concept": "gossip",
+   "chunk": "Peers telling each other what they hold.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 20,
+   "stored": "2026-08-19"
+  },
+  {
+   "id": "n027",
+   "q": 3,
+   "r": -2,
+   "domain": "network",
+   "concept": "routing",
+   "chunk": "Finding which peers hold the cells you want.",
+   "peers": [
+    "desktop-07d2",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-09-09"
+  },
+  {
+   "id": "n028",
+   "q": 3,
+   "r": -3,
+   "domain": "space",
+   "concept": "hex cell",
+   "chunk": "Six neighbours, all the same distance away.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 20,
+   "stored": "2026-08-06"
+  },
+  {
+   "id": "n029",
+   "q": 2,
+   "r": -3,
+   "domain": "space",
+   "concept": "ring",
+   "chunk": "The cells exactly n steps from a centre.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 22,
+   "stored": "2026-09-02"
+  },
+  {
+   "id": "n030",
+   "q": 1,
+   "r": -3,
+   "domain": "space",
+   "concept": "region",
+   "chunk": "A patch of cells about one subject.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 19,
+   "stored": "2026-08-17"
+  },
+  {
+   "id": "n031",
+   "q": 0,
+   "r": -3,
+   "domain": "time",
+   "concept": "present",
+   "chunk": "What is happening in this turn.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 21,
+   "stored": "2026-11-07"
+  },
+  {
+   "id": "n032",
+   "q": -1,
+   "r": -2,
+   "domain": "time",
+   "concept": "past",
+   "chunk": "Everything already said, held or lost.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-2b7e"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-22"
+  },
+  {
+   "id": "n033",
+   "q": -2,
+   "r": -1,
+   "domain": "time",
+   "concept": "future",
+   "chunk": "What a memory might be needed for.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-30"
+  },
+  {
+   "id": "n034",
+   "q": -3,
+   "r": 0,
+   "domain": "language",
+   "concept": "relation",
+   "chunk": "How two concepts connect: part of, kind of, near.",
+   "peers": [
+    "phone-2b7e",
+    "tablet-c4e9"
+   ],
+   "recalls": 20,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n035",
+   "q": -3,
+   "r": 1,
+   "domain": "language",
+   "concept": "synonym",
+   "chunk": "Two words, one cell.",
+   "peers": [
+    "phone-2b7e",
+    "tablet-c4e9"
+   ],
+   "recalls": 22,
+   "stored": "2026-11-16"
+  },
+  {
+   "id": "n036",
+   "q": -3,
+   "r": 2,
+   "domain": "language",
+   "concept": "context",
+   "chunk": "The words around a word that fix its sense.",
+   "peers": [
+    "phone-2b7e",
+    "pi-3e18"
+   ],
+   "recalls": 25,
+   "stored": "2026-10-23"
+  },
+  {
+   "id": "n037",
+   "q": -4,
+   "r": 4,
+   "domain": "model",
+   "concept": "embedding",
+   "chunk": "A passage turned into a point in a very large space.",
+   "peers": [
+    "pi-3e18",
+    "server-a6c0"
+   ],
+   "recalls": 17,
+   "stored": "2026-09-25"
+  },
+  {
+   "id": "n038",
+   "q": -3,
+   "r": 4,
+   "domain": "model",
+   "concept": "inference",
+   "chunk": "One pass of the model, from prompt to answer.",
+   "peers": [
+    "pi-3e18",
+    "phone-9c41"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-16"
+  },
+  {
+   "id": "n039",
+   "q": -2,
+   "r": 4,
+   "domain": "model",
+   "concept": "sampling",
+   "chunk": "Choosing the next token from the model's guesses.",
+   "peers": [
+    "pi-3e18",
+    "desktop-07d2"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-25"
+  },
+  {
+   "id": "n040",
+   "q": -1,
+   "r": 4,
+   "domain": "model",
+   "concept": "temperature",
+   "chunk": "How far sampling may wander from the likeliest token.",
+   "peers": [
+    "pi-3e18",
+    "server-a6c0"
+   ],
+   "recalls": 16,
+   "stored": "2026-11-13"
+  },
+  {
+   "id": "n041",
+   "q": 0,
+   "r": 4,
+   "domain": "memory",
+   "concept": "chunk",
+   "chunk": "The unit HSDM stores: a few sentences, one idea.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 16,
+   "stored": "2026-10-28"
+  },
+  {
+   "id": "n042",
+   "q": 1,
+   "r": 3,
+   "domain": "memory",
+   "concept": "write",
+   "chunk": "Storing a chunk in the cell where it belongs.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 21,
+   "stored": "2026-09-04"
+  },
+  {
+   "id": "n043",
+   "q": 2,
+   "r": 2,
+   "domain": "memory",
+   "concept": "read",
+   "chunk": "Fetching the chunks around a point in the field.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 20,
+   "stored": "2026-08-20"
+  },
+  {
+   "id": "n044",
+   "q": 3,
+   "r": 1,
+   "domain": "memory",
+   "concept": "rehearsal",
+   "chunk": "A chunk recalled often stays strong.",
+   "peers": [
+    "phone-9c41",
+    "pi-3e18"
+   ],
+   "recalls": 14,
+   "stored": "2026-08-09"
+  },
+  {
+   "id": "n045",
+   "q": 4,
+   "r": 0,
+   "domain": "network",
+   "concept": "join",
+   "chunk": "A new peer taking a region of the field.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 13,
+   "stored": "2026-09-26"
+  },
+  {
+   "id": "n046",
+   "q": 4,
+   "r": -1,
+   "domain": "network",
+   "concept": "leave",
+   "chunk": "A peer going away. Its chunks live on elsewhere.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 16,
+   "stored": "2026-10-06"
+  },
+  {
+   "id": "n047",
+   "q": 4,
+   "r": -2,
+   "domain": "network",
+   "concept": "churn",
+   "chunk": "Peers coming and going all the time.",
+   "peers": [
+    "desktop-07d2",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-11-05"
+  },
+  {
+   "id": "n048",
+   "q": 4,
+   "r": -3,
+   "domain": "network",
+   "concept": "handoff",
+   "chunk": "Passing a region to a neighbour before leaving.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 21,
+   "stored": "2026-11-07"
+  },
+  {
+   "id": "n049",
+   "q": 4,
+   "r": -4,
+   "domain": "space",
+   "concept": "axial",
+   "chunk": "Two coordinates, q and r, for every cell.",
+   "peers": [
+    "server-a6c0",
+    "phone-2b7e"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-13"
+  },
+  {
+   "id": "n050",
+   "q": 3,
+   "r": -4,
+   "domain": "space",
+   "concept": "cube",
+   "chunk": "A third coordinate, so the arithmetic stays symmetric.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 13,
+   "stored": "2026-08-12"
+  },
+  {
+   "id": "n051",
+   "q": 2,
+   "r": -4,
+   "domain": "space",
+   "concept": "direction",
+   "chunk": "One of the six ways out of a cell.",
+   "peers": [
+    "server-a6c0",
+    "phone-2b7e"
+   ],
+   "recalls": 16,
+   "stored": "2026-08-15"
+  },
+  {
+   "id": "n052",
+   "q": 1,
+   "r": -4,
+   "domain": "space",
+   "concept": "line",
+   "chunk": "The cells between two cells, step by step.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 21,
+   "stored": "2026-09-21"
+  },
+  {
+   "id": "n053",
+   "q": 0,
+   "r": -4,
+   "domain": "time",
+   "concept": "epoch",
+   "chunk": "A stretch of time a set of memories belongs to.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-2b7e"
+   ],
+   "recalls": 15,
+   "stored": "2026-08-08"
+  },
+  {
+   "id": "n054",
+   "q": -1,
+   "r": -3,
+   "domain": "time",
+   "concept": "sequence",
+   "chunk": "What came before what.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-24"
+  },
+  {
+   "id": "n055",
+   "q": -2,
+   "r": -2,
+   "domain": "time",
+   "concept": "version",
+   "chunk": "A chunk as it was at one moment.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 20,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n056",
+   "q": -3,
+   "r": -1,
+   "domain": "time",
+   "concept": "expiry",
+   "chunk": "A date after which a chunk is let go.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-2b7e"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-18"
+  },
+  {
+   "id": "n057",
+   "q": -4,
+   "r": 0,
+   "domain": "language",
+   "concept": "sense",
+   "chunk": "One meaning of a word that has several.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-10"
+  },
+  {
+   "id": "n058",
+   "q": -4,
+   "r": 1,
+   "domain": "language",
+   "concept": "analogy",
+   "chunk": "A relation that holds in two places at once.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 15,
+   "stored": "2026-08-25"
+  },
+  {
+   "id": "n059",
+   "q": -4,
+   "r": 2,
+   "domain": "language",
+   "concept": "category",
+   "chunk": "Concepts that share a kind.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-22"
+  },
+  {
+   "id": "n060",
+   "q": -4,
+   "r": 3,
+   "domain": "language",
+   "concept": "name",
+   "chunk": "A word that points at one thing.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-25"
+  },
+  {
+   "id": "n061",
+   "q": -5,
+   "r": 5,
+   "domain": "model",
+   "concept": "system prompt",
+   "chunk": "Standing instructions that open every conversation.",
+   "peers": [
+    "pi-3e18",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-03"
+  },
+  {
+   "id": "n062",
+   "q": -4,
+   "r": 5,
+   "domain": "model",
+   "concept": "fine-tuning",
+   "chunk": "Changing the weights: slow, costly, and frozen afterwards.",
+   "peers": [
+    "pi-3e18",
+    "server-a6c0"
+   ],
+   "recalls": 18,
+   "stored": "2026-08-14"
+  },
+  {
+   "id": "n063",
+   "q": -3,
+   "r": 5,
+   "domain": "model",
+   "concept": "hallucination",
+   "chunk": "A confident answer with nothing underneath it.",
+   "peers": [
+    "pi-3e18",
+    "laptop-51af"
+   ],
+   "recalls": 20,
+   "stored": "2026-08-20"
+  },
+  {
+   "id": "n064",
+   "q": -2,
+   "r": 5,
+   "domain": "model",
+   "concept": "grounding",
+   "chunk": "Tying an answer to something that was actually stored.",
+   "peers": [
+    "pi-3e18",
+    "server-a6c0"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-28"
+  },
+  {
+   "id": "n065",
+   "q": -1,
+   "r": 5,
+   "domain": "model",
+   "concept": "truncation",
+   "chunk": "What happens to the oldest text when the window fills.",
+   "peers": [
+    "pi-3e18",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-06"
+  },
+  {
+   "id": "n066",
+   "q": 0,
+   "r": 5,
+   "domain": "memory",
+   "concept": "salience",
+   "chunk": "How much a chunk matters, judged by use.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 19,
+   "stored": "2026-08-21"
+  },
+  {
+   "id": "n067",
+   "q": 1,
+   "r": 4,
+   "domain": "memory",
+   "concept": "decay",
+   "chunk": "Strength lost over time without recall.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-30"
+  },
+  {
+   "id": "n068",
+   "q": 2,
+   "r": 3,
+   "domain": "memory",
+   "concept": "consolidation",
+   "chunk": "Merging near-duplicate chunks into one.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-25"
+  },
+  {
+   "id": "n069",
+   "q": 3,
+   "r": 2,
+   "domain": "memory",
+   "concept": "interference",
+   "chunk": "Two memories in one place, blurring each other.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-18"
+  },
+  {
+   "id": "n070",
+   "q": 4,
+   "r": 1,
+   "domain": "memory",
+   "concept": "cue",
+   "chunk": "The small thing that brings a whole memory back.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 17,
+   "stored": "2026-11-07"
+  },
+  {
+   "id": "n071",
+   "q": 5,
+   "r": 0,
+   "domain": "network",
+   "concept": "latency",
+   "chunk": "How long an answer takes to come back.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 11,
+   "stored": "2026-10-18"
+  },
+  {
+   "id": "n072",
+   "q": 5,
+   "r": -1,
+   "domain": "network",
+   "concept": "bandwidth",
+   "chunk": "How much a peer can send at once.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 11,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n073",
+   "q": 5,
+   "r": -2,
+   "domain": "network",
+   "concept": "partition",
+   "chunk": "Part of the network cut off from the rest.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 18,
+   "stored": "2026-09-06"
+  },
+  {
+   "id": "n074",
+   "q": 5,
+   "r": -3,
+   "domain": "network",
+   "concept": "consensus",
+   "chunk": "Peers agreeing on what a cell holds.",
+   "peers": [
+    "desktop-07d2",
+    "laptop-51af"
+   ],
+   "recalls": 19,
+   "stored": "2026-10-22"
+  },
+  {
+   "id": "n075",
+   "q": 5,
+   "r": -4,
+   "domain": "network",
+   "concept": "conflict",
+   "chunk": "Two writes to one cell. Both are kept.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-02"
+  },
+  {
+   "id": "n076",
+   "q": 5,
+   "r": -5,
+   "domain": "space",
+   "concept": "walk",
+   "chunk": "Retrieval as a path outward from a cue.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 11,
+   "stored": "2026-09-24"
+  },
+  {
+   "id": "n077",
+   "q": 4,
+   "r": -5,
+   "domain": "space",
+   "concept": "radius",
+   "chunk": "How far a search is allowed to go.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-15"
+  },
+  {
+   "id": "n078",
+   "q": 3,
+   "r": -5,
+   "domain": "space",
+   "concept": "boundary",
+   "chunk": "Where one region gives way to another.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-23"
+  },
+  {
+   "id": "n079",
+   "q": 2,
+   "r": -5,
+   "domain": "space",
+   "concept": "cluster",
+   "chunk": "Related chunks gathered in one place.",
+   "peers": [
+    "server-a6c0",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-18"
+  },
+  {
+   "id": "n080",
+   "q": 1,
+   "r": -5,
+   "domain": "space",
+   "concept": "gap",
+   "chunk": "Empty cells: things not yet known.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-26"
+  },
+  {
+   "id": "n081",
+   "q": 0,
+   "r": -5,
+   "domain": "time",
+   "concept": "half-life",
+   "chunk": "How long until an unused chunk is half as strong.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 11,
+   "stored": "2026-10-11"
+  },
+  {
+   "id": "n082",
+   "q": -1,
+   "r": -4,
+   "domain": "time",
+   "concept": "schedule",
+   "chunk": "When peers sync, and when they sleep.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 19,
+   "stored": "2026-09-25"
+  },
+  {
+   "id": "n083",
+   "q": -2,
+   "r": -3,
+   "domain": "time",
+   "concept": "window",
+   "chunk": "A span of time a search is limited to.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 11,
+   "stored": "2026-11-11"
+  },
+  {
+   "id": "n084",
+   "q": -3,
+   "r": -2,
+   "domain": "time",
+   "concept": "ordering",
+   "chunk": "Agreeing on which of two writes came first.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 18,
+   "stored": "2026-09-03"
+  },
+  {
+   "id": "n085",
+   "q": -4,
+   "r": -1,
+   "domain": "time",
+   "concept": "clock",
+   "chunk": "Each peer has its own, never quite in step.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 16,
+   "stored": "2026-11-10"
+  },
+  {
+   "id": "n086",
+   "q": -5,
+   "r": 0,
+   "domain": "language",
+   "concept": "metaphor",
+   "chunk": "Meaning borrowed from somewhere else in the field.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-26"
+  },
+  {
+   "id": "n087",
+   "q": -5,
+   "r": 1,
+   "domain": "language",
+   "concept": "ambiguity",
+   "chunk": "One word, two cells.",
+   "peers": [
+    "phone-2b7e",
+    "desktop-07d2"
+   ],
+   "recalls": 17,
+   "stored": "2026-09-06"
+  },
+  {
+   "id": "n088",
+   "q": -5,
+   "r": 2,
+   "domain": "language",
+   "concept": "translation",
+   "chunk": "The same cell, reached from another language.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 19,
+   "stored": "2026-09-26"
+  },
+  {
+   "id": "n089",
+   "q": -5,
+   "r": 3,
+   "domain": "language",
+   "concept": "paraphrase",
+   "chunk": "Other words for the same chunk.",
+   "peers": [
+    "phone-2b7e",
+    "laptop-51af"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-31"
+  },
+  {
+   "id": "n090",
+   "q": -5,
+   "r": 4,
+   "domain": "language",
+   "concept": "negation",
+   "chunk": "Not quite the opposite: a nearby cell, marked.",
+   "peers": [
+    "phone-2b7e",
+    "pi-3e18"
+   ],
+   "recalls": 17,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n091",
+   "q": -6,
+   "r": 6,
+   "domain": "model",
+   "concept": "tool call",
+   "chunk": "The model asking for something it cannot do itself.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 15,
+   "stored": "2026-11-10"
+  },
+  {
+   "id": "n092",
+   "q": -5,
+   "r": 6,
+   "domain": "model",
+   "concept": "chat history",
+   "chunk": "The transcript so far, sent again with every turn.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 10,
+   "stored": "2026-09-11"
+  },
+  {
+   "id": "n093",
+   "q": -4,
+   "r": 6,
+   "domain": "model",
+   "concept": "summary",
+   "chunk": "Old turns squeezed down to make room for new ones.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-12"
+  },
+  {
+   "id": "n094",
+   "q": -3,
+   "r": 6,
+   "domain": "model",
+   "concept": "KV cache",
+   "chunk": "Attention's working memory, gone when the session ends.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 18,
+   "stored": "2026-08-16"
+  },
+  {
+   "id": "n095",
+   "q": -2,
+   "r": 6,
+   "domain": "model",
+   "concept": "long context",
+   "chunk": "A bigger window: a higher ceiling, still a ceiling.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 18,
+   "stored": "2026-09-19"
+  },
+  {
+   "id": "n096",
+   "q": -1,
+   "r": 6,
+   "domain": "model",
+   "concept": "token budget",
+   "chunk": "How much of the window each piece is allowed to take.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 13,
+   "stored": "2026-08-26"
+  },
+  {
+   "id": "n097",
+   "q": 0,
+   "r": 6,
+   "domain": "memory",
+   "concept": "working memory",
+   "chunk": "What is in view right now: the context window.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-17"
+  },
+  {
+   "id": "n098",
+   "q": 1,
+   "r": 5,
+   "domain": "memory",
+   "concept": "long-term",
+   "chunk": "Everything kept outside it, in the field.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 10,
+   "stored": "2026-11-01"
+  },
+  {
+   "id": "n099",
+   "q": 2,
+   "r": 4,
+   "domain": "memory",
+   "concept": "trace",
+   "chunk": "The mark a read leaves on the cells it touched.",
+   "peers": [
+    "desktop-07d2",
+    "pi-3e18"
+   ],
+   "recalls": 11,
+   "stored": "2026-09-06"
+  },
+  {
+   "id": "n100",
+   "q": 3,
+   "r": 3,
+   "domain": "memory",
+   "concept": "pattern completion",
+   "chunk": "Recovering a whole memory from part of it.",
+   "peers": [
+    "desktop-07d2",
+    "phone-9c41"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-27"
+  },
+  {
+   "id": "n101",
+   "q": 4,
+   "r": 2,
+   "domain": "memory",
+   "concept": "provenance",
+   "chunk": "Where a chunk came from, and when.",
+   "peers": [
+    "desktop-07d2",
+    "tablet-c4e9"
+   ],
+   "recalls": 18,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n102",
+   "q": 5,
+   "r": 1,
+   "domain": "memory",
+   "concept": "redaction",
+   "chunk": "Removing a chunk so it can never be recalled.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-30"
+  },
+  {
+   "id": "n103",
+   "q": 6,
+   "r": 0,
+   "domain": "network",
+   "concept": "NAT traversal",
+   "chunk": "Reaching a peer behind a home router.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 14,
+   "stored": "2026-08-06"
+  },
+  {
+   "id": "n104",
+   "q": 6,
+   "r": -1,
+   "domain": "network",
+   "concept": "relay",
+   "chunk": "A peer passing messages for two that cannot meet.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-31"
+  },
+  {
+   "id": "n105",
+   "q": 6,
+   "r": -2,
+   "domain": "network",
+   "concept": "heartbeat",
+   "chunk": "A small regular message: still here.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-10"
+  },
+  {
+   "id": "n106",
+   "q": 6,
+   "r": -3,
+   "domain": "network",
+   "concept": "phone node",
+   "chunk": "A peer on a phone, holding a small region.",
+   "peers": [
+    "server-a6c0",
+    "tablet-c4e9"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-12"
+  },
+  {
+   "id": "n107",
+   "q": 6,
+   "r": -4,
+   "domain": "network",
+   "concept": "seed",
+   "chunk": "A known peer a new one asks first.",
+   "peers": [
+    "server-a6c0",
+    "tablet-c4e9"
+   ],
+   "recalls": 17,
+   "stored": "2026-11-02"
+  },
+  {
+   "id": "n108",
+   "q": 6,
+   "r": -5,
+   "domain": "network",
+   "concept": "mesh",
+   "chunk": "Every peer linked to a few others, none to all.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 11,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n109",
+   "q": 6,
+   "r": -6,
+   "domain": "space",
+   "concept": "spatial retrieval",
+   "chunk": "Read what is near the cue, then what is near that.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 18,
+   "stored": "2026-10-14"
+  },
+  {
+   "id": "n110",
+   "q": 5,
+   "r": -6,
+   "domain": "space",
+   "concept": "layout",
+   "chunk": "Deciding where each new chunk should go.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-25"
+  },
+  {
+   "id": "n111",
+   "q": 4,
+   "r": -6,
+   "domain": "space",
+   "concept": "map",
+   "chunk": "The whole field, seen at once.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 16,
+   "stored": "2026-10-25"
+  },
+  {
+   "id": "n112",
+   "q": 3,
+   "r": -6,
+   "domain": "space",
+   "concept": "projection",
+   "chunk": "Flattening high-dimensional meaning onto the grid.",
+   "peers": [
+    "tablet-c4e9",
+    "server-a6c0"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-13"
+  },
+  {
+   "id": "n113",
+   "q": 2,
+   "r": -6,
+   "domain": "space",
+   "concept": "landmark",
+   "chunk": "A well-known cell others are placed against.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 16,
+   "stored": "2026-08-09"
+  },
+  {
+   "id": "n114",
+   "q": 1,
+   "r": -6,
+   "domain": "space",
+   "concept": "bearing",
+   "chunk": "Which way a related idea lies.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-9c41"
+   ],
+   "recalls": 16,
+   "stored": "2026-08-21"
+  },
+  {
+   "id": "n115",
+   "q": 0,
+   "r": -6,
+   "domain": "time",
+   "concept": "history",
+   "chunk": "Every version a cell has held.",
+   "peers": [
+    "phone-2b7e",
+    "desktop-07d2"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-21"
+  },
+  {
+   "id": "n116",
+   "q": -1,
+   "r": -5,
+   "domain": "time",
+   "concept": "snapshot",
+   "chunk": "The field as it was, frozen.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-02"
+  },
+  {
+   "id": "n117",
+   "q": -2,
+   "r": -4,
+   "domain": "time",
+   "concept": "replay",
+   "chunk": "Reading memories back in the order they formed.",
+   "peers": [
+    "phone-2b7e",
+    "laptop-51af"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-09"
+  },
+  {
+   "id": "n118",
+   "q": -3,
+   "r": -3,
+   "domain": "time",
+   "concept": "deadline",
+   "chunk": "How long a read may take before it gives up.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 11,
+   "stored": "2026-08-11"
+  },
+  {
+   "id": "n119",
+   "q": -4,
+   "r": -2,
+   "domain": "time",
+   "concept": "uptime",
+   "chunk": "How long a peer has been answering.",
+   "peers": [
+    "phone-2b7e",
+    "desktop-07d2"
+   ],
+   "recalls": 12,
+   "stored": "2026-11-05"
+  },
+  {
+   "id": "n120",
+   "q": -5,
+   "r": -1,
+   "domain": "time",
+   "concept": "idle",
+   "chunk": "When a phone peer does its work.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-18"
+  },
+  {
+   "id": "n121",
+   "q": -6,
+   "r": 0,
+   "domain": "language",
+   "concept": "entity",
+   "chunk": "A person, place or thing with its own cell.",
+   "peers": [
+    "laptop-51af",
+    "tablet-c4e9"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-25"
+  },
+  {
+   "id": "n122",
+   "q": -6,
+   "r": 1,
+   "domain": "language",
+   "concept": "event",
+   "chunk": "Something that happened, linked to who and when.",
+   "peers": [
+    "laptop-51af",
+    "server-a6c0"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-16"
+  },
+  {
+   "id": "n123",
+   "q": -6,
+   "r": 2,
+   "domain": "language",
+   "concept": "claim",
+   "chunk": "A statement a chunk makes, true or not.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 10,
+   "stored": "2026-08-06"
+  },
+  {
+   "id": "n124",
+   "q": -6,
+   "r": 3,
+   "domain": "language",
+   "concept": "question",
+   "chunk": "A cue looking for its answer's cell.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 13,
+   "stored": "2026-11-15"
+  },
+  {
+   "id": "n125",
+   "q": -6,
+   "r": 4,
+   "domain": "language",
+   "concept": "answer",
+   "chunk": "The cells a question's walk ends at.",
+   "peers": [
+    "laptop-51af",
+    "server-a6c0"
+   ],
+   "recalls": 11,
+   "stored": "2026-08-03"
+  },
+  {
+   "id": "n126",
+   "q": -6,
+   "r": 5,
+   "domain": "language",
+   "concept": "definition",
+   "chunk": "A chunk that says what a concept is.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 10,
+   "stored": "2026-08-13"
+  },
+  {
+   "id": "n127",
+   "q": -7,
+   "r": 7,
+   "domain": "model",
+   "concept": "retrieval",
+   "chunk": "Fetching passages first, then letting the model read them.",
+   "peers": [
+    "phone-9c41",
+    "pi-3e18"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-25"
+  },
+  {
+   "id": "n128",
+   "q": -6,
+   "r": 7,
+   "domain": "model",
+   "concept": "re-ranking",
+   "chunk": "Sorting what came back before it reaches the prompt.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 11,
+   "stored": "2026-10-24"
+  },
+  {
+   "id": "n129",
+   "q": -5,
+   "r": 7,
+   "domain": "model",
+   "concept": "chunk size",
+   "chunk": "How much text one stored piece holds.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 11,
+   "stored": "2026-08-08"
+  },
+  {
+   "id": "n130",
+   "q": -4,
+   "r": 7,
+   "domain": "model",
+   "concept": "overlap",
+   "chunk": "Text shared by neighbouring chunks, so no thought is cut in half.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-21"
+  },
+  {
+   "id": "n131",
+   "q": -3,
+   "r": 7,
+   "domain": "model",
+   "concept": "citation",
+   "chunk": "Pointing back to the chunk an answer came from.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 8,
+   "stored": "2026-08-27"
+  },
+  {
+   "id": "n132",
+   "q": -2,
+   "r": 7,
+   "domain": "model",
+   "concept": "refusal",
+   "chunk": "The model declining, sometimes because it cannot recall.",
+   "peers": [
+    "phone-9c41",
+    "server-a6c0"
+   ],
+   "recalls": 16,
+   "stored": "2026-09-27"
+  },
+  {
+   "id": "n133",
+   "q": -1,
+   "r": 7,
+   "domain": "model",
+   "concept": "drift",
+   "chunk": "A long conversation slowly losing its first instructions.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 13,
+   "stored": "2026-11-18"
+  },
+  {
+   "id": "n134",
+   "q": 0,
+   "r": 7,
+   "domain": "memory",
+   "concept": "primacy",
+   "chunk": "The first things in a conversation stick hardest.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 11,
+   "stored": "2026-08-07"
+  },
+  {
+   "id": "n135",
+   "q": 1,
+   "r": 6,
+   "domain": "memory",
+   "concept": "recency",
+   "chunk": "So do the last ones.",
+   "peers": [
+    "desktop-07d2",
+    "pi-3e18"
+   ],
+   "recalls": 14,
+   "stored": "2026-08-22"
+  },
+  {
+   "id": "n136",
+   "q": 2,
+   "r": 5,
+   "domain": "memory",
+   "concept": "spacing",
+   "chunk": "Recall spread over time beats recall all at once.",
+   "peers": [
+    "desktop-07d2",
+    "pi-3e18"
+   ],
+   "recalls": 10,
+   "stored": "2026-08-28"
+  },
+  {
+   "id": "n137",
+   "q": 3,
+   "r": 4,
+   "domain": "memory",
+   "concept": "reconsolidation",
+   "chunk": "A recalled memory is rewritten as it is stored again.",
+   "peers": [
+    "desktop-07d2",
+    "laptop-51af"
+   ],
+   "recalls": 13,
+   "stored": "2026-09-20"
+  },
+  {
+   "id": "n138",
+   "q": 4,
+   "r": 3,
+   "domain": "memory",
+   "concept": "false memory",
+   "chunk": "A chunk recalled into the wrong place.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-25"
+  },
+  {
+   "id": "n139",
+   "q": 5,
+   "r": 2,
+   "domain": "memory",
+   "concept": "index",
+   "chunk": "A shortcut from a cue to its cell.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-29"
+  },
+  {
+   "id": "n140",
+   "q": 6,
+   "r": 1,
+   "domain": "memory",
+   "concept": "tagging",
+   "chunk": "Labels a chunk carries besides its position.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 14,
+   "stored": "2026-11-15"
+  },
+  {
+   "id": "n141",
+   "q": 7,
+   "r": 0,
+   "domain": "network",
+   "concept": "signature",
+   "chunk": "Proof of which peer wrote a chunk.",
+   "peers": [
+    "server-a6c0",
+    "tablet-c4e9"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-02"
+  },
+  {
+   "id": "n142",
+   "q": 7,
+   "r": -1,
+   "domain": "network",
+   "concept": "encryption",
+   "chunk": "Chunks only their owner can read.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 10,
+   "stored": "2026-09-07"
+  },
+  {
+   "id": "n143",
+   "q": 7,
+   "r": -2,
+   "domain": "network",
+   "concept": "trust",
+   "chunk": "How much a peer believes another's answers.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-04"
+  },
+  {
+   "id": "n144",
+   "q": 7,
+   "r": -3,
+   "domain": "network",
+   "concept": "eviction",
+   "chunk": "A full peer dropping its coldest chunks.",
+   "peers": [
+    "server-a6c0",
+    "pi-3e18"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n145",
+   "q": 7,
+   "r": -4,
+   "domain": "network",
+   "concept": "quota",
+   "chunk": "How much a peer agrees to hold.",
+   "peers": [
+    "server-a6c0",
+    "phone-9c41"
+   ],
+   "recalls": 16,
+   "stored": "2026-10-11"
+  },
+  {
+   "id": "n146",
+   "q": 7,
+   "r": -5,
+   "domain": "network",
+   "concept": "sync",
+   "chunk": "Two peers comparing what they hold.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-16"
+  },
+  {
+   "id": "n147",
+   "q": 7,
+   "r": -6,
+   "domain": "network",
+   "concept": "offline",
+   "chunk": "A peer that still answers from what it has.",
+   "peers": [
+    "server-a6c0",
+    "tablet-c4e9"
+   ],
+   "recalls": 17,
+   "stored": "2026-08-31"
+  },
+  {
+   "id": "n148",
+   "q": 7,
+   "r": -7,
+   "domain": "space",
+   "concept": "local",
+   "chunk": "Near cells first, far cells only if needed.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 16,
+   "stored": "2026-08-03"
+  },
+  {
+   "id": "n149",
+   "q": 6,
+   "r": -7,
+   "domain": "space",
+   "concept": "tiling",
+   "chunk": "Hexes cover the plane with no gaps.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-03"
+  },
+  {
+   "id": "n150",
+   "q": 5,
+   "r": -7,
+   "domain": "space",
+   "concept": "symmetry",
+   "chunk": "No direction is privileged on a hex grid.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 17,
+   "stored": "2026-10-07"
+  },
+  {
+   "id": "n151",
+   "q": 4,
+   "r": -7,
+   "domain": "space",
+   "concept": "zoom",
+   "chunk": "Coarse cells for broad ideas, fine cells for detail.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 13,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n152",
+   "q": 3,
+   "r": -7,
+   "domain": "space",
+   "concept": "seam",
+   "chunk": "Two regions meeting, where ideas cross over.",
+   "peers": [
+    "tablet-c4e9",
+    "server-a6c0"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-05"
+  },
+  {
+   "id": "n153",
+   "q": 2,
+   "r": -7,
+   "domain": "space",
+   "concept": "adjacency",
+   "chunk": "The six-neighbour graph the field is built on.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-9c41"
+   ],
+   "recalls": 14,
+   "stored": "2026-11-09"
+  },
+  {
+   "id": "n154",
+   "q": 1,
+   "r": -7,
+   "domain": "space",
+   "concept": "path cost",
+   "chunk": "Distance, weighted by how strong each step is.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n155",
+   "q": 0,
+   "r": -7,
+   "domain": "time",
+   "concept": "continuity",
+   "chunk": "The same memory across many sessions.",
+   "peers": [
+    "phone-2b7e",
+    "tablet-c4e9"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-24"
+  },
+  {
+   "id": "n156",
+   "q": -1,
+   "r": -6,
+   "domain": "time",
+   "concept": "restart",
+   "chunk": "A peer coming back with what it held.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 11,
+   "stored": "2026-09-30"
+  },
+  {
+   "id": "n157",
+   "q": -2,
+   "r": -5,
+   "domain": "time",
+   "concept": "rollback",
+   "chunk": "Undoing writes to a cell.",
+   "peers": [
+    "phone-2b7e",
+    "pi-3e18"
+   ],
+   "recalls": 16,
+   "stored": "2026-10-26"
+  },
+  {
+   "id": "n158",
+   "q": -3,
+   "r": -4,
+   "domain": "time",
+   "concept": "staleness",
+   "chunk": "How out of date a copy may be.",
+   "peers": [
+    "phone-2b7e",
+    "pi-3e18"
+   ],
+   "recalls": 8,
+   "stored": "2026-10-01"
+  },
+  {
+   "id": "n159",
+   "q": -4,
+   "r": -3,
+   "domain": "time",
+   "concept": "lag",
+   "chunk": "A replica running behind the original.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 15,
+   "stored": "2026-08-05"
+  },
+  {
+   "id": "n160",
+   "q": -5,
+   "r": -2,
+   "domain": "time",
+   "concept": "cadence",
+   "chunk": "How often a memory gets recalled.",
+   "peers": [
+    "phone-2b7e",
+    "tablet-c4e9"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-22"
+  },
+  {
+   "id": "n161",
+   "q": -6,
+   "r": -1,
+   "domain": "time",
+   "concept": "day",
+   "chunk": "Memories grouped by the day they formed.",
+   "peers": [
+    "phone-2b7e",
+    "desktop-07d2"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-13"
+  },
+  {
+   "id": "n162",
+   "q": -7,
+   "r": 0,
+   "domain": "language",
+   "concept": "jargon",
+   "chunk": "Words that only make sense in one region.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 9,
+   "stored": "2026-10-18"
+  },
+  {
+   "id": "n163",
+   "q": -7,
+   "r": 1,
+   "domain": "language",
+   "concept": "idiom",
+   "chunk": "A phrase whose meaning is not in its words.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 13,
+   "stored": "2026-09-20"
+  },
+  {
+   "id": "n164",
+   "q": -7,
+   "r": 2,
+   "domain": "language",
+   "concept": "tone",
+   "chunk": "How something was said, kept with what was said.",
+   "peers": [
+    "laptop-51af",
+    "pi-3e18"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-17"
+  },
+  {
+   "id": "n165",
+   "q": -7,
+   "r": 3,
+   "domain": "language",
+   "concept": "register",
+   "chunk": "Formal or casual: one idea in two voices.",
+   "peers": [
+    "laptop-51af",
+    "phone-9c41"
+   ],
+   "recalls": 17,
+   "stored": "2026-09-27"
+  },
+  {
+   "id": "n166",
+   "q": -7,
+   "r": 4,
+   "domain": "language",
+   "concept": "emphasis",
+   "chunk": "What the speaker leaned on.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-14"
+  },
+  {
+   "id": "n167",
+   "q": -7,
+   "r": 5,
+   "domain": "language",
+   "concept": "pronoun",
+   "chunk": "A word that needs memory to resolve.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 13,
+   "stored": "2026-08-11"
+  },
+  {
+   "id": "n168",
+   "q": -7,
+   "r": 6,
+   "domain": "language",
+   "concept": "quote",
+   "chunk": "Exact words, kept exactly.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-06"
+  },
+  {
+   "id": "n169",
+   "q": -8,
+   "r": 8,
+   "domain": "model",
+   "concept": "vendor",
+   "chunk": "Whoever runs the model. Memory should not depend on them.",
+   "peers": [
+    "phone-9c41",
+    "laptop-51af"
+   ],
+   "recalls": 10,
+   "stored": "2026-11-03"
+  },
+  {
+   "id": "n170",
+   "q": -7,
+   "r": 8,
+   "domain": "model",
+   "concept": "API",
+   "chunk": "How an app talks to a hosted model.",
+   "peers": [
+    "phone-9c41",
+    "desktop-07d2"
+   ],
+   "recalls": 7,
+   "stored": "2026-09-24"
+  },
+  {
+   "id": "n171",
+   "q": -6,
+   "r": 8,
+   "domain": "model",
+   "concept": "local model",
+   "chunk": "Weights running on your own hardware.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 14,
+   "stored": "2026-08-21"
+  },
+  {
+   "id": "n172",
+   "q": -5,
+   "r": 8,
+   "domain": "model",
+   "concept": "quantisation",
+   "chunk": "Smaller numbers in the weights, so a model fits a phone.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 9,
+   "stored": "2026-11-09"
+  },
+  {
+   "id": "n173",
+   "q": -4,
+   "r": 8,
+   "domain": "model",
+   "concept": "rate limit",
+   "chunk": "How often a vendor lets you ask.",
+   "peers": [
+    "phone-9c41",
+    "pi-3e18"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-08"
+  },
+  {
+   "id": "n174",
+   "q": -3,
+   "r": 8,
+   "domain": "model",
+   "concept": "model swap",
+   "chunk": "Changing models without losing what was remembered.",
+   "peers": [
+    "phone-9c41",
+    "pi-3e18"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-09"
+  },
+  {
+   "id": "n175",
+   "q": -2,
+   "r": 8,
+   "domain": "model",
+   "concept": "eval",
+   "chunk": "A test of whether recall actually helps the answer.",
+   "peers": [
+    "phone-9c41",
+    "phone-2b7e"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-23"
+  },
+  {
+   "id": "n176",
+   "q": -1,
+   "r": 8,
+   "domain": "model",
+   "concept": "prompt cache",
+   "chunk": "Reusing the start of a prompt to save time.",
+   "peers": [
+    "phone-9c41",
+    "tablet-c4e9"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-18"
+  },
+  {
+   "id": "n177",
+   "q": 0,
+   "r": 8,
+   "domain": "memory",
+   "concept": "sparse",
+   "chunk": "Only a few cells answer any one cue.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 7,
+   "stored": "2026-08-23"
+  },
+  {
+   "id": "n178",
+   "q": 1,
+   "r": 7,
+   "domain": "memory",
+   "concept": "distributed",
+   "chunk": "One memory spread over several cells.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 12,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n179",
+   "q": 2,
+   "r": 6,
+   "domain": "memory",
+   "concept": "addressable",
+   "chunk": "Found by what it is, not by where a file is.",
+   "peers": [
+    "desktop-07d2",
+    "pi-3e18"
+   ],
+   "recalls": 9,
+   "stored": "2026-11-17"
+  },
+  {
+   "id": "n180",
+   "q": 3,
+   "r": 5,
+   "domain": "memory",
+   "concept": "capacity",
+   "chunk": "How much the field holds before memories collide.",
+   "peers": [
+    "desktop-07d2",
+    "pi-3e18"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-24"
+  },
+  {
+   "id": "n181",
+   "q": 4,
+   "r": 4,
+   "domain": "memory",
+   "concept": "noise",
+   "chunk": "Faint matches that should not come back.",
+   "peers": [
+    "desktop-07d2",
+    "phone-9c41"
+   ],
+   "recalls": 12,
+   "stored": "2026-10-07"
+  },
+  {
+   "id": "n182",
+   "q": 5,
+   "r": 3,
+   "domain": "memory",
+   "concept": "threshold",
+   "chunk": "How close a cell must be to answer.",
+   "peers": [
+    "desktop-07d2",
+    "phone-9c41"
+   ],
+   "recalls": 11,
+   "stored": "2026-11-07"
+  },
+  {
+   "id": "n183",
+   "q": 6,
+   "r": 2,
+   "domain": "memory",
+   "concept": "Kanerva",
+   "chunk": "Sparse distributed memory, described in 1988.",
+   "peers": [
+    "desktop-07d2",
+    "server-a6c0"
+   ],
+   "recalls": 13,
+   "stored": "2026-10-17"
+  },
+  {
+   "id": "n184",
+   "q": 7,
+   "r": 1,
+   "domain": "memory",
+   "concept": "persistence",
+   "chunk": "Memory that outlives the session, the device, the vendor.",
+   "peers": [
+    "desktop-07d2",
+    "phone-2b7e"
+   ],
+   "recalls": 14,
+   "stored": "2026-09-05"
+  },
+  {
+   "id": "n185",
+   "q": 8,
+   "r": 0,
+   "domain": "network",
+   "concept": "hash",
+   "chunk": "A fingerprint that names a chunk.",
+   "peers": [
+    "server-a6c0",
+    "tablet-c4e9"
+   ],
+   "recalls": 14,
+   "stored": "2026-11-05"
+  },
+  {
+   "id": "n186",
+   "q": 8,
+   "r": -1,
+   "domain": "network",
+   "concept": "content address",
+   "chunk": "Finding a chunk by its hash.",
+   "peers": [
+    "server-a6c0",
+    "pi-3e18"
+   ],
+   "recalls": 9,
+   "stored": "2026-10-18"
+  },
+  {
+   "id": "n187",
+   "q": 8,
+   "r": -2,
+   "domain": "network",
+   "concept": "sketch",
+   "chunk": "A small summary of what a peer knows, shared instead of its data.",
+   "peers": [
+    "server-a6c0",
+    "phone-2b7e"
+   ],
+   "recalls": 14,
+   "stored": "2026-08-08"
+  },
+  {
+   "id": "n188",
+   "q": 8,
+   "r": -3,
+   "domain": "network",
+   "concept": "WebRTC",
+   "chunk": "Browser-to-browser connections between peers.",
+   "peers": [
+    "server-a6c0",
+    "laptop-51af"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-18"
+  },
+  {
+   "id": "n189",
+   "q": 8,
+   "r": -4,
+   "domain": "network",
+   "concept": "battery",
+   "chunk": "What a phone peer must not run down.",
+   "peers": [
+    "server-a6c0",
+    "phone-2b7e"
+   ],
+   "recalls": 13,
+   "stored": "2026-11-18"
+  },
+  {
+   "id": "n190",
+   "q": 8,
+   "r": -5,
+   "domain": "network",
+   "concept": "background sync",
+   "chunk": "Catching up while the phone is idle.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 11,
+   "stored": "2026-11-07"
+  },
+  {
+   "id": "n191",
+   "q": 8,
+   "r": -6,
+   "domain": "network",
+   "concept": "bootstrap",
+   "chunk": "Getting a fresh peer into the network.",
+   "peers": [
+    "server-a6c0",
+    "pi-3e18"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-19"
+  },
+  {
+   "id": "n192",
+   "q": 8,
+   "r": -7,
+   "domain": "network",
+   "concept": "open protocol",
+   "chunk": "Anyone can run a peer. No one owns the network.",
+   "peers": [
+    "server-a6c0",
+    "desktop-07d2"
+   ],
+   "recalls": 16,
+   "stored": "2026-08-21"
+  },
+  {
+   "id": "n193",
+   "q": 8,
+   "r": -8,
+   "domain": "space",
+   "concept": "vector space",
+   "chunk": "Where embeddings live: thousands of dimensions.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-9c41"
+   ],
+   "recalls": 10,
+   "stored": "2026-11-05"
+  },
+  {
+   "id": "n194",
+   "q": 7,
+   "r": -8,
+   "domain": "space",
+   "concept": "similarity",
+   "chunk": "Closeness in that space, measured by angle.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 13,
+   "stored": "2026-09-07"
+  },
+  {
+   "id": "n195",
+   "q": 6,
+   "r": -8,
+   "domain": "space",
+   "concept": "structure",
+   "chunk": "What position adds that similarity misses.",
+   "peers": [
+    "tablet-c4e9",
+    "phone-2b7e"
+   ],
+   "recalls": 8,
+   "stored": "2026-09-17"
+  },
+  {
+   "id": "n196",
+   "q": 5,
+   "r": -8,
+   "domain": "space",
+   "concept": "topology",
+   "chunk": "What stays true however the grid is drawn.",
+   "peers": [
+    "tablet-c4e9",
+    "desktop-07d2"
+   ],
+   "recalls": 15,
+   "stored": "2026-08-12"
+  },
+  {
+   "id": "n197",
+   "q": 4,
+   "r": -8,
+   "domain": "space",
+   "concept": "geodesic",
+   "chunk": "The shortest walk between two cells.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 10,
+   "stored": "2026-10-19"
+  },
+  {
+   "id": "n198",
+   "q": 3,
+   "r": -8,
+   "domain": "space",
+   "concept": "flood fill",
+   "chunk": "Reading every cell within reach of a cue.",
+   "peers": [
+    "tablet-c4e9",
+    "laptop-51af"
+   ],
+   "recalls": 9,
+   "stored": "2026-10-16"
+  },
+  {
+   "id": "n199",
+   "q": 2,
+   "r": -8,
+   "domain": "space",
+   "concept": "frontier",
+   "chunk": "The edge of what a walk has read so far.",
+   "peers": [
+    "tablet-c4e9",
+    "server-a6c0"
+   ],
+   "recalls": 15,
+   "stored": "2026-08-02"
+  },
+  {
+   "id": "n200",
+   "q": 1,
+   "r": -8,
+   "domain": "space",
+   "concept": "origin",
+   "chunk": "Where a walk starts: the cell of the cue.",
+   "peers": [
+    "tablet-c4e9",
+    "pi-3e18"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-15"
+  },
+  {
+   "id": "n201",
+   "q": 0,
+   "r": -8,
+   "domain": "time",
+   "concept": "lifetime",
+   "chunk": "From first write to final forgetting.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 10,
+   "stored": "2026-11-11"
+  },
+  {
+   "id": "n202",
+   "q": -1,
+   "r": -7,
+   "domain": "time",
+   "concept": "archive",
+   "chunk": "Cold chunks kept, but far from the centre.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 9,
+   "stored": "2026-10-10"
+  },
+  {
+   "id": "n203",
+   "q": -2,
+   "r": -6,
+   "domain": "time",
+   "concept": "audit",
+   "chunk": "A record of who read and wrote what, and when.",
+   "peers": [
+    "phone-2b7e",
+    "laptop-51af"
+   ],
+   "recalls": 12,
+   "stored": "2026-11-16"
+  },
+  {
+   "id": "n204",
+   "q": -3,
+   "r": -5,
+   "domain": "time",
+   "concept": "as of",
+   "chunk": "Reading the field as it stood on a date.",
+   "peers": [
+    "phone-2b7e",
+    "server-a6c0"
+   ],
+   "recalls": 11,
+   "stored": "2026-10-02"
+  },
+  {
+   "id": "n205",
+   "q": -4,
+   "r": -4,
+   "domain": "time",
+   "concept": "retention",
+   "chunk": "How long the network promises to keep things.",
+   "peers": [
+    "phone-2b7e",
+    "desktop-07d2"
+   ],
+   "recalls": 15,
+   "stored": "2026-09-29"
+  },
+  {
+   "id": "n206",
+   "q": -5,
+   "r": -3,
+   "domain": "time",
+   "concept": "backfill",
+   "chunk": "Writing old conversations into the field.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 11,
+   "stored": "2026-09-06"
+  },
+  {
+   "id": "n207",
+   "q": -6,
+   "r": -2,
+   "domain": "time",
+   "concept": "tombstone",
+   "chunk": "A marker that a chunk was deleted.",
+   "peers": [
+    "phone-2b7e",
+    "phone-9c41"
+   ],
+   "recalls": 12,
+   "stored": "2026-08-04"
+  },
+  {
+   "id": "n208",
+   "q": -7,
+   "r": -1,
+   "domain": "time",
+   "concept": "long now",
+   "chunk": "Memory meant to last longer than any vendor.",
+   "peers": [
+    "phone-2b7e",
+    "tablet-c4e9"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-14"
+  },
+  {
+   "id": "n209",
+   "q": -8,
+   "r": 0,
+   "domain": "language",
+   "concept": "multilingual",
+   "chunk": "One field for every language.",
+   "peers": [
+    "laptop-51af",
+    "pi-3e18"
+   ],
+   "recalls": 9,
+   "stored": "2026-08-09"
+  },
+  {
+   "id": "n210",
+   "q": -8,
+   "r": 1,
+   "domain": "language",
+   "concept": "slang",
+   "chunk": "Meaning that moves fast.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 9,
+   "stored": "2026-11-09"
+  },
+  {
+   "id": "n211",
+   "q": -8,
+   "r": 2,
+   "domain": "language",
+   "concept": "dialect",
+   "chunk": "The same words in a different neighbourhood.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 10,
+   "stored": "2026-11-13"
+  },
+  {
+   "id": "n212",
+   "q": -8,
+   "r": 3,
+   "domain": "language",
+   "concept": "acronym",
+   "chunk": "Short letters for a long idea.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 9,
+   "stored": "2026-09-28"
+  },
+  {
+   "id": "n213",
+   "q": -8,
+   "r": 4,
+   "domain": "language",
+   "concept": "etymology",
+   "chunk": "Where a word came from.",
+   "peers": [
+    "laptop-51af",
+    "phone-9c41"
+   ],
+   "recalls": 13,
+   "stored": "2026-09-11"
+  },
+  {
+   "id": "n214",
+   "q": -8,
+   "r": 5,
+   "domain": "language",
+   "concept": "polysemy",
+   "chunk": "One word, many related senses.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 8,
+   "stored": "2026-09-01"
+  },
+  {
+   "id": "n215",
+   "q": -8,
+   "r": 6,
+   "domain": "language",
+   "concept": "narrative",
+   "chunk": "Memories strung into a story.",
+   "peers": [
+    "laptop-51af",
+    "phone-2b7e"
+   ],
+   "recalls": 10,
+   "stored": "2026-09-04"
+  },
+  {
+   "id": "n216",
+   "q": -8,
+   "r": 7,
+   "domain": "language",
+   "concept": "silence",
+   "chunk": "What was not said, which matters too.",
+   "peers": [
+    "laptop-51af",
+    "desktop-07d2"
+   ],
+   "recalls": 15,
+   "stored": "2026-10-02"
+  }
+ ]
+}
