@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hexfield — a peer-to-peer memory layer for language models</title>
-  <meta name="description" content="Hexfield is HSDM: memory for language models that lives outside the model, held by peer nodes, laid out on a hex grid so retrieval is spatial.">
+  <meta name="description" content="Hexfield is HSDM: memory for language models that lives outside the model, held by peer nodes that each lay out what they hold on a hex grid. One node is live: ask it something.">
   <meta name="theme-color" content="#0d0e10">
   <meta property="og:title" content="Hexfield">
   <meta property="og:description" content="A peer-to-peer memory layer for language models.">
@@ -28,24 +28,41 @@
       <div class="prose">
         <p>HSDM is memory that lives outside the model. A language model forgets a conversation when it ends and only sees what fits in front of it. HSDM keeps what matters somewhere else, and hands the right pieces back when they are needed.</p>
         <p>That somewhere else is a network of peers. Each node stores its own chunks of text and retrieves them on request. A node tells the others roughly what it holds, and nothing else leaves it until a question matches. There is no central index and no server.</p>
-        <p>Where a chunk sits means something. Memory is laid out on a hex grid, and position encodes how concepts relate: neighbours are related, distance is difference. So retrieval is spatial, a walk outward from where a question lands, not just a ranking by vector similarity.</p>
+        <p>Where a passage sits means something. A node lays its memory out on a hex grid so that related passages sit side by side: neighbours are related, distance is difference. A question lands on the cell it fits best, and the node walks outward from there to its answers.</p>
       </div>
     </section>
 
     <section class="block" aria-labelledby="field-title">
       <div class="block-head"><span class="idx">02</span><h2 id="field-title">The field</h2></div>
       <div class="field">
-        <p class="field-note">Each cell is a memory node. This is a sample of <span id="field-count">217</span>, in six regions around the present: related ideas share a border.</p>
+        <p class="field-note">This is a live node, <a href="https://node.hexfield.org/api/status">node.hexfield.org</a>, holding <span id="field-count">4,162</span> passages: the documentation inside Python's standard library. It laid them out on these 217 cells itself, so neighbouring cells hold related passages. Ask it something.</p>
+        <form class="ask" id="ask" role="search" hidden>
+          <div class="ask-row">
+            <label class="visually-hidden" for="ask-q">Ask the node</label>
+            <input id="ask-q" name="q" type="search" placeholder="how do I read a csv file" autocomplete="off" spellcheck="false" maxlength="300" enterkeyhint="search">
+            <button type="submit">Ask</button>
+          </div>
+          <p class="ask-try"><span>Try</span>
+            <button type="button" data-ask="lock shared data between threads">lock shared data between threads</button>
+            <button type="button" data-ask="parse command line arguments">parse command line arguments</button>
+            <button type="button" data-ask="draw a circle on the screen">draw a circle on the screen</button>
+          </p>
+        </form>
         <div class="field-grid">
           <div class="field-stage">
             <canvas id="field" tabindex="0" role="application" aria-roledescription="memory field" aria-label="Memory field. Arrow keys move between cells, Enter lights up a cell's neighbours, Escape clears." aria-describedby="readout"></canvas>
           </div>
           <div class="readout" id="readout" aria-live="polite">
-            <p class="ro-hint">Loading the field.</p>
+            <p class="ro-hint">Loading the field from the node.</p>
             <noscript><p class="ro-hint">The field needs JavaScript.</p></noscript>
           </div>
         </div>
-        <ul class="legend" id="legend" aria-label="Regions"></ul>
+        <div class="answers" id="answers" hidden>
+          <p class="answers-status" role="status"></p>
+          <ol class="answers-list"></ol>
+        </div>
+        <ul class="legend" id="legend" aria-label="What the cells hold"></ul>
+        <p class="field-proof" id="field-proof" hidden></p>
       </div>
     </section>
 
@@ -70,6 +87,7 @@
       <div class="prose">
         <p class="state"><span class="dot" aria-hidden="true"></span>Early. In development.</p>
         <p>The work happens in the open: <a href="https://github.com/elonmusksleftmut/P2P-HSDM">p2p-hsdm on GitHub</a>.</p>
+        <p>One node is live: the field above. It runs a JavaScript port of p2p-hsdm on Cloudflare, checked against the Python bit for bit (<a href="https://github.com/elonmusksleftmut/hexfield/tree/main/node">hexfield/node</a>).</p>
       </div>
     </section>
   </main>
