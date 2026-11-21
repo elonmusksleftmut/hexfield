@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hexfield — a peer-to-peer memory layer for language models</title>
+  <meta name="description" content="Hexfield is HSDM: memory for language models that lives outside the model, held by peer nodes, laid out on a hex grid so retrieval is spatial.">
+  <meta name="theme-color" content="#0d0e10">
+  <meta property="og:title" content="Hexfield">
+  <meta property="og:description" content="A peer-to-peer memory layer for language models.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 27.3 9.5v13L16 29 4.7 22.5v-13Z' fill='%230d0e10' stroke='%23e2a63b' stroke-width='2.4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero wrap">
+    <svg class="mark" viewBox="0 0 32 32" width="40" height="40" aria-hidden="true" focusable="false">
+      <path class="mark-ring" d="M25.01 11.42L28.97 13.71L28.97 18.29L25.01 20.58L21.04 18.29L21.04 13.71ZM20.50 3.62L24.47 5.91L24.47 10.49L20.50 12.78L16.54 10.49L16.54 5.91ZM11.50 3.62L15.46 5.91L15.46 10.49L11.50 12.78L7.53 10.49L7.53 5.91ZM6.99 11.42L10.96 13.71L10.96 18.29L6.99 20.58L3.03 18.29L3.03 13.71ZM11.50 19.22L15.46 21.51L15.46 26.09L11.50 28.38L7.53 26.09L7.53 21.51ZM20.50 19.22L24.47 21.51L24.47 26.09L20.50 28.38L16.54 26.09L16.54 21.51Z"/>
+      <path class="mark-core" d="M16.00 11.42L19.96 13.71L19.96 18.29L16.00 20.58L12.04 18.29L12.04 13.71Z"/>
+    </svg>
+    <h1>Hexfield</h1>
+    <p class="lede">A peer-to-peer memory layer for language models.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="block" aria-labelledby="what">
+      <div class="block-head"><span class="idx">01</span><h2 id="what">What it is</h2></div>
+      <div class="prose">
+        <p>HSDM is memory that lives outside the model. A language model forgets a conversation when it ends and only sees what fits in front of it. HSDM keeps what matters somewhere else, and hands the right pieces back when they are needed.</p>
+        <p>That somewhere else is a network of peers. Each node stores its own chunks of text and retrieves them on request. A node tells the others roughly what it holds, and nothing else leaves it until a question matches. There is no central index and no server.</p>
+        <p>Where a chunk sits means something. Memory is laid out on a hex grid, and position encodes how concepts relate: neighbours are related, distance is difference. So retrieval is spatial, a walk outward from where a question lands, not just a ranking by vector similarity.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="why">
+      <div class="block-head"><span class="idx">02</span><h2 id="why">Why</h2></div>
+      <div class="prose">
+        <p>Context windows are a hard ceiling. They keep growing, but whatever does not fit is gone, and whatever fits is gone when the session ends.</p>
+        <dl class="props">
+          <dt>Persistent</dt>
+          <dd>Memory outlasts the conversation, the session and the device.</dd>
+          <dt>Distributed</dt>
+          <dd>Held across many peers, not in one place that can fail or be switched off.</dd>
+          <dt>Vendor-independent</dt>
+          <dd>Works with whichever model you use, and stays yours when you change.</dd>
+        </dl>
+        <p class="closer">A node runs on a phone.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="status">
+      <div class="block-head"><span class="idx">03</span><h2 id="status">Status</h2></div>
+      <div class="prose">
+        <p class="state"><span class="dot" aria-hidden="true"></span>Early. In development.</p>
+        <p>The work happens in the open: <a href="https://github.com/elonmusksleftmut/P2P-HSDM">p2p-hsdm on GitHub</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="foot"><a href="https://github.com/elonmusksleftmut">GitHub</a></div>
+  </footer>
+</body>
+</html>
