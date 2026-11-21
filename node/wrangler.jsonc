@@ -1,0 +1,11 @@
+// node.hexfield.org. Deploy from this folder: npx wrangler deploy
+// (wrangler's default rules load core.wasm as a compiled module and memory.bin as an ArrayBuffer)
+{
+  "name": "hexfield-node",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-14",
+  "routes": [{ "pattern": "node.hexfield.org", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true }
+}
